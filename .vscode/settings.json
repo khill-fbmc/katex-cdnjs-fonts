@@ -1,0 +1,22 @@
+{
+  "javascript.validate.enable": false,
+  "eslint.nodePath": ".yarn/sdks",
+  "stylelint.stylelintPath": ".yarn/sdks/stylelint/lib/index.js",
+  "flow.pathToFlow": "${workspaceFolder}/.yarn/sdks/flow-bin/cli.js",
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/.retool_types/**": true,
+    "**/*tsconfig.json": true,
+    ".cache": true,
+    "retool.config.json": true
+  },
+}
